@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rover</title>
+    <script type="module" src="/src/main.ts" defer></script>
+  </head>
+
+  <body>
+    <div class="container" id="first">
+      <div id="main">
+        <h5><a href="https://app.viam.com/try" target="_blank">Try Viam</a></h5>
+        <button id="main-button" disabled="true">Click me</button>
+      </div>
+
+      <div id="api">
+      <h2>API Configuration Form</h2>
+      <div class="row">
+
+      <form id="api-form">
+      <div class="form-group">
+        <label for="api-key">API KEY:</label>
+        <input type="text" id="api-key" name="apiKey">
+      </div>
+
+      <div class="form-group">
+        <label for="api-key-id">API KEY ID:</label>
+        <input type="text" id="api-key-id" name="apiKeyId">
+      </div>
+
+      <div class="form-group">
+        <label for="app-address">APP ADDRESS:</label>
+        <input type="text" id="app-address" name="appAddress" required>
+      </div>
+
+      <button type="submit">Submit</button>
+     </form>
+      </div>
+    </div>
+
+      <div class="row" id="text-container">
+     </div>
+    </div>
+  </body>
+</html>
+
