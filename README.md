@@ -81,6 +81,8 @@ $ npm run tauri ios dev
 ### Up to 20 seconds after you submit the form, the "Click Me" button should change color and be enabled. 
 ### Clicking on the "Click Me" button will display some rover actions.
 
+### You can right-click on the app (or Ctrl-click on MacOS) to see the web console. 
+
 ### A successful run:
 
 <figure>
