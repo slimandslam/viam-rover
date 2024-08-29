@@ -4,7 +4,7 @@
 ### Author: Jason Levitt
 ### Initial Release Date: August 29th, 2024
 
-## viam-rover demonstrates [Tauri version 2's](https://v2.tauri.app) ability to run Typescripa-for-the-browser as an application across both desktop and mobile platforms using only one code base. 
+## viam-rover demonstrates [Tauri version 2's](https://v2.tauri.app) ability to run Typescript-for-the-browser as an application across both desktop and mobile platforms using only one code base. 
 
 <figure>
     <img src="https://i.imgur.com/reqeI0X.jpeg" alt="ViamRover" width="800"/>
@@ -14,7 +14,7 @@
 ## Building The App
 
 ### For prerequisites, see this page: <a href="https://v2.tauri.app/start/prerequisites/" target="_blank">Tauri prerequisites</a>
-#### Note that iOS emulation requires a Mac (sorry). 
+#### Note that iOS emulation requires a Mac. 
 
 ### After you clone this repo:
  ```sh 
@@ -65,17 +65,17 @@ $ npm run tauri ios dev
 
 ### This sample app requires:
 
--- a Viam API key
--- a Viam API key ID
--- a Viam App Address
+* a Viam API key
+* a Viam API key ID
+* a Viam App Address
 
-### You must first create a login at Viam: https://auth.viam.com/oauth2/register 
-### Go to your profile settings in the upper-right hand corner to create your API key and API key ID
-### Then go to the Try Viam page here: https://app.viam.com/try
-### Click on the "TRY NOW" button and wait for a rover reservation
-### When it succeeds, click on the "TRY MY ROVER" button
-### In the dashboard, click on "CONNECT" in the menu bar
-### Copy the "Machine address (URI)" which you will use in the form form field labeled "APP ADDRESS"
+1. You must first create a login at Viam: https://viam.com
+2. Go to your profile settings in the upper-right hand corner to create your API key and API key ID
+3. Then go to the Try Viam page here: https://app.viam.com/try
+4. Click on the "TRY NOW" button and wait for a rover reservation
+5. When it succeeds, click on the "TRY MY ROVER" button
+6. In the dashboard, click on "CONNECT" in the menu bar
+7. Copy the "Machine address (URI)" which you will use in the form form field labeled "APP ADDRESS"
 
 ### You can now run this app and populate the three fields. 
 ### Up to 20 seconds after you submit the form, the "Click Me" button should change color and be enabled. 
@@ -85,7 +85,7 @@ $ npm run tauri ios dev
 
 <figure>
     <img src="https://i.imgur.com/RG0so09.jpeg" alt="ViamRover" width="800"/>
-    <figcaption>Running on MacOS</figcaption>
+    <figcaption>A Successful Run on MacOS</figcaption>
 </figure>
 
 ## Creating an .env file
