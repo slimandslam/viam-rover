@@ -75,13 +75,13 @@ $ npm run tauri ios dev
 4. Click on the "TRY NOW" button and wait for a rover reservation
 5. When it succeeds, click on the "TRY MY ROVER" button
 6. In the dashboard, click on "CONNECT" in the menu bar
-7. Copy the "Machine address (URI)" which you will use in the form form field labeled "APP ADDRESS"
+7. Copy the "Machine address (URI)" which you will use in the form field labeled "APP ADDRESS"
 
 ### You can now run this app and populate the three fields. 
 ### Up to 20 seconds after you submit the form, the "Click Me" button should change color and be enabled. 
 ### Clicking on the "Click Me" button will display some rover actions.
 
-### You can right-click on the app (or Ctrl-click on MacOS) to see the web console. 
+### You can right-click on the app (or Ctrl-click on MacOS) and select "inspect element" to see the web console. 
 
 ### A successful run:
 
